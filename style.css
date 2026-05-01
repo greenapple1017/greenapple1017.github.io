@@ -40,6 +40,13 @@ th {
 
 .book-title {
     font-weight: 600;
+    color: #0969da;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.book-title:hover {
+    text-decoration: underline;
 }
 
 .review-link {
