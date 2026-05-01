@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    color: #000;
+    background-color: #fff;
+    margin: 0;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    max-width: 800px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th, td {
+    padding: 0.8rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+th {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.book-title {
+    font-weight: 600;
+}
+
+.review-link {
+    color: #0969da;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.back-link {
+    color: #000;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.review-link:hover, .back-link:hover {
+    text-decoration: underline;
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.text-content {
+    white-space: pre-wrap;
+    word-break: keep-all;
+    line-height: 1.8;
+    margin-top: 2rem;
+}
