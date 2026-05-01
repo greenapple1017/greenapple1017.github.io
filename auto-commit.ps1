@@ -25,7 +25,6 @@ foreach ($book in $booksJson.books) {
 
         <article class="review-content">
             <h1>$($book.title)</h1>
-            <p><strong>저자:</strong> $($book.author)</p>
             <div class="text-content">
                 
             </div>
