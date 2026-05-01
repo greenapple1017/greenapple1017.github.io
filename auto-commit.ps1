@@ -38,7 +38,7 @@ foreach ($book in $booksJson.books) {
     $filePath = Join-Path -Path $reviewsDir -ChildPath $book.review
     
     if (!(Test-Path $filePath)) {
-        $htmlContent | Out-File -FilePath $filePath -Encoding UTF8
+        [System.IO.File]::WriteAllText($filePath, $htmlContent, [System.Text.Encoding]::UTF8)
     }
 }
 
