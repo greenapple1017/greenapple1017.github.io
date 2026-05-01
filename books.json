@@ -1,0 +1,24 @@
+{
+  "books": [
+    {
+      "title": "자기 결정",
+      "author": "페터 비에리",
+      "review": "자기결정.html"
+    },
+    {
+      "title": "코스모스",
+      "author": "칼 세이건",
+      "review": "코스모스.html"
+    },
+    {
+      "title": "그리스인 조르바",
+      "author": "니코스 카잔차키스",
+      "review": "그리스인_조르바.html"
+    },
+    {
+      "title": "내면소통",
+      "author": "김주환",
+      "review": "내면소통.html"
+    }
+  ]
+}
