@@ -21,7 +21,7 @@ foreach ($book in $booksJson.books) {
 
 <body>
     <main>
-        <a href="../index.html" class="back-link">&larr; 목록으로 돌아가기</a>
+        <a href="../index.html" class="back-link">&larr; Back to List</a>
 
         <article class="review-content">
             <h1>$($book.title)</h1>
